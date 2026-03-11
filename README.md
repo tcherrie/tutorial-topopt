@@ -40,7 +40,9 @@ and run the scripts located in the "student" folder on your computer.
 
 - Use JupyterLite, a JupyterLab distribution that runs entirely in the browser, to provide a lightweight and portable environment for teaching numerical modeling, together with [NGSolve](https://ngsolve.org/)
 - Based on the following template repository : [https://github.com/NGSolve/jupyterlite_ngsolve/tree/main](https://github.com/NGSolve/jupyterlite_ngsolve/tree/main). Thanks a lot to the developers !
-- Developed by T. Cherrière, T. Gauthey, M. Hage-Hassan (GeePs, CentraleSupélec, France) & N. Krenn (RICAM, ÖAW, Austria).
+- Inspired from these repositories [tutoriel_optimisation_topologique_GDR_SEEDS](tcherrie/tutoriel_optimisation_topologique_GDR_SEEDS) and [https://github.com/Authomas555/sge2025_TopOpt](Authomas555/sge2025_TopOpt) associate with the paper [[Cherrière, Gauthey, Gaydier, Hage-Hassan 2025]](https://cnrs.hal.science/hal-05185001v1)
+- Developed by [T. Cherrière](https://tcherrie.github.io/), [T. Gauthey](https://www.centralesupelec.fr/chercheurs/thomas-gauthey), [M. Hage-Hassan](https://www.centralesupelec.fr/chercheurs/maya-hage-hassan) (GeePs, CentraleSupélec, France) & [N. Krenn](https://www.oeaw.ac.at/ricam/staff/nepomuk-krenn) (RICAM, ÖAW, Austria).
+- Thanks to S. Gaydier (G2ELab) for contributing to previous versions
 
 Contact : <theodore.cherriere@centralesupelec.fr>
 
