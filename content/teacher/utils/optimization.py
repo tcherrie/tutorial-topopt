@@ -35,8 +35,8 @@ def gradient_descent(state : callable,           # a_rho : GridFunction, Kinv : 
                      x_min : float =  0, 
                      x_max : float =  1,
                      maxit : int = 100,
-                     tol : float = 1e-3,
-                     step_min : float = 1e-3,
+                     tol : float = 1e-6,
+                     step_min : float = 1e-6,
                      fac_increase_step : float= 1.2,
                      fac_decrease_step : float= 0.5,
                      draw : bool = True,
@@ -94,7 +94,7 @@ def gradient_descent(state : callable,           # a_rho : GridFunction, Kinv : 
 
         # 4) Check convergence
         if crit_list[-1] < tol: # stop if converged
-            print(f"Converged! {crit_list[-1] = :.2e} < {tol :.2e}")
+            print(f"Converged! Relative norm of projected gradient = {crit_list[-1] :.2e} < {tol :.2e}")
             break
 
         if iter >= maxit:
