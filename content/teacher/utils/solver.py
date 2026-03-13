@@ -14,6 +14,21 @@ def solve(bilinearForm :LinearForm,
     return sol, Kinv
 
 
+from ngsolve import CF, cos, sin, pi
+from ngsolve.webgui import Draw
+
+def DrawMaterial(rho, theta, scene = None):
+    """ plot the fibers along the parallel direction """
+    mesh = rho.space.mesh
+    if scene is None :
+        scene = Draw(rho*CF((cos(theta+pi/2),sin(theta+pi/2))), mesh, vectors = { "grid_size":20}, 
+                     settings = {"Objects" : { "Wireframe" : False } } , min=0, max=1)
+        return scene
+    else:
+        scene.Redraw(rho*CF((cos(theta+pi/2),sin(theta+pi/2))), mesh, vectors = { "grid_size":20},
+                     settings = {"Objects" : { "Wireframe" : False } }, min=0, max=1)
+
+
 from ngsolve import CF, grad
 
 def curl(v):

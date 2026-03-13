@@ -5,7 +5,7 @@
 
 Click on the yellow badge or scan the QR code to open the JupyterLite environment to fill and execute the Jupyter notebooks:
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://tcherrie.github.io/tutorial-topopt/lab/?path=student/A_Jupyter_cheat_sheet.ipynb)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://tcherrie.github.io/tutorial-topopt/lab/?path=student/0_index.ipynb)
 
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7b3f0679-a863-45cb-98c3-23a607340a01" />
 
